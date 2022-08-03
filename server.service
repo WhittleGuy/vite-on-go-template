@@ -1,0 +1,10 @@
+[Unit]
+Description=a web server
+
+[Service]
+Environment=PORT=80
+Type=simple
+Restart=always
+RestartSec=5s
+WorkingDirectory=<pwd of server>
+ExecStart=<name dir of program>
